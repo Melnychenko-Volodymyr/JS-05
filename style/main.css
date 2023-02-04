@@ -1,0 +1,99 @@
+body {
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover {
+	cursor: pointer;
+}
+
+.krest:hover {
+	cursor: pointer;
+}
+.btn_reestr:hover {
+	cursor: pointer;
+}
+.container {
+    width: 320px;
+    height: 340px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    display: none;
+}
+.header_form {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.zag {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.krest {
+    font-size: 28px;
+    font-weight: normal;
+    margin-right: 5px;
+} 
+.inp {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.inp1 {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.warning {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+.btn_submit {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color:blue;
+    color: white;
+    font-size: 20px;
+}
+.let_reg {
+    width: 660px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+.greeting {
+    width: 660px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    display: none;
+}

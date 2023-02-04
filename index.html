@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="./style/main.css">
+	<title>Реєстраційна форма</title>
+</head>
+<body>
+
+	<div class="let_reg">
+		Для входу на сайт потрібно ввести інформацію про себе &nbsp;&nbsp;
+		<button class="btn_reestr">
+			Реєстрація
+		</button>
+	</div>
+
+	<div class="container">
+			<div class="header_form">
+				<div class="zag">
+					Реєстрація
+				</div>	
+				<div class="krest">
+					x
+				</div>			
+			</div>				
+			<div class="inp">
+				Ім'я:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input class="inp_name" id="inp_name" type="text" placeholder="тільки українські літери">
+			</div>	
+			<div class="inp">
+				Ваша стать : &nbsp;&nbsp;
+				<select id="sex" class="inp_sex">
+					<option value=1 selected>Не вибрано</option>
+					<option value=2 >Чоловік</option>
+					<option value=3 >Жінка</option>
+				</select>
+			</div>	
+			<div class="inp1">
+				Дата народження:
+				<input class="inp_date" id="inp_date" type="date">
+			</div>				
+			<button class="btn_submit">Зареєструватись</button>
+			<div class="warning">
+
+			</div>
+	</div>
+
+	
+	<div class="greeting">
+
+	</div>
+
+<script	src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="./js/main.js"></script>	
+</body>
+</html>
